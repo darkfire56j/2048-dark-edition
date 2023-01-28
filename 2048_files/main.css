@@ -390,8 +390,7 @@ hr {
   .tile.tile-64 .tile-inner {
     background: #ab6f3b; }
   .tile.tile-128 .tile-inner {
-    color: #2B2A5F;
-    background: #729EED;
+    background: #ab4c3b;
     box-shadow: 0 0 30px 10px rgba(116, 167, 243, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
