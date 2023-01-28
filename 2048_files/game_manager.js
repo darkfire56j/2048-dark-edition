@@ -10,7 +10,8 @@ function GameManager(size, InputManager, Actuator, StorageManager) {
   this.inputManager.on("restart", this.restart.bind(this));
   this.inputManager.on("keepPlaying", this.keepPlaying.bind(this));
 
-  this.moveSound = new Audio('audio/item-equip-6904.mp3');
+  this.moveSound = new Audio('2048_files/audio/item-equip-6904.mp3');
+  moveSound.crossOrigin = "anonymous";
 
   this.setup();
 }
