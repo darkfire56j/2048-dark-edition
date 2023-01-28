@@ -10,6 +10,8 @@ function GameManager(size, InputManager, Actuator, StorageManager) {
   this.inputManager.on("restart", this.restart.bind(this));
   this.inputManager.on("keepPlaying", this.keepPlaying.bind(this));
 
+  this.moveSound = new Audio('audio/item-equip-6904.mp3');
+
   this.setup();
 }
 
@@ -132,6 +134,8 @@ GameManager.prototype.move = function (direction) {
   var self = this;
 
   if (this.isGameTerminated()) return; // Don't do anything if the game's over
+
+  this.moveSound.play();
 
   var cell, tile;
 
