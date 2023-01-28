@@ -10,7 +10,7 @@ function GameManager(size, InputManager, Actuator, StorageManager) {
   this.inputManager.on("restart", this.restart.bind(this));
   this.inputManager.on("keepPlaying", this.keepPlaying.bind(this));
 
-  this.moveSound = new Audio('2048_files/audio/item-equip-6904.mp3');
+  this.moveSound = new Audio('2048_files/audio/fh_paper_swipe_surface2_short_01wav-14432.mp3');
   this.moveSound.crossOrigin = "anonymous";
 
   this.setup();
