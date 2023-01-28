@@ -137,7 +137,7 @@ GameManager.prototype.move = function (direction) {
   if (this.isGameTerminated()) return; // Don't do anything if the game's over
 
   this.moveSound.currentTime = 0;
-  this.moveSound.play();ù
+  this.moveSound.play();
 
   var cell, tile;
 
