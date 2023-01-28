@@ -425,8 +425,8 @@ hr {
       .tile.tile-2048 .tile-inner {
         font-size: 15px; } }
   .tile.tile-super .tile-inner {
-    color: #2B2A5F;
-    background: #32323C;
+    background: linear-gradient(-45deg, #5025d4, #c06c00);
+    box-shadow: 0 0 10px 10px #7e2cae78, inset 0 0 12px 1px #ffe5a9;
     font-size: 30px; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
