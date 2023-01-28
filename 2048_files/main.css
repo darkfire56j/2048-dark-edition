@@ -391,14 +391,14 @@ hr {
     background: #ab6f3b; }
   .tile.tile-128 .tile-inner {
     background: #ab4c3b;
-    box-shadow: 0 0 30px 10px rgba(116, 167, 243, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
+    box-shadow: 0 0 10px 10px #ab4c3b6e, inset 0 0 10px 1px rgb(211 106 87);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
         font-size: 25px; } }
   .tile.tile-256 .tile-inner {
     background: #a9428f;
-    box-shadow: 0 0 30px 10px rgba(116, 167, 243, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
+    box-shadow: 0 0 10px 10px #9e227f54, inset 0 0 10px 1px #bc79ab;
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
