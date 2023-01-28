@@ -136,9 +136,6 @@ GameManager.prototype.move = function (direction) {
 
   if (this.isGameTerminated()) return; // Don't do anything if the game's over
 
-  this.moveSound.currentTime = 0;
-  this.moveSound.play(); 
-
   var cell, tile;
 
   var vector     = this.getVector(direction);
@@ -186,6 +183,10 @@ GameManager.prototype.move = function (direction) {
   });
 
   if (moved) {
+    this.moveSound.currentTime = 0;
+    this.moveSound.play(); 
+  
+
     this.addRandomTile();
 
     if (!this.movesAvailable()) {
