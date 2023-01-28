@@ -267,7 +267,7 @@ hr {
   margin-right: 15px;
   float: left;
   border-radius: 3px;
-  background: rgba(178, 179, 216, 0.35); }
+  background: rgb(0 0 0 / 28%) }
   .grid-cell:last-child {
     margin-right: 0; }
 
